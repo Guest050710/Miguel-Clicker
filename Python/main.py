@@ -1,40 +1,22 @@
+import os
+from os import system
+
 lazy import rich
 from rich import print
 from rich.layout import *
+from rich.console import *
+from rich.padding import *
+from rich.live import *
 
-# Criar e configurar layouts
-layout = Layout()
+import readchar
+from readchar import readkey, key
 
-layout.split_row(
-    Layout(name="Nav"),
-    Layout(name="Main")
-)
+import ui
 
-layout["Main"].ratio = 3
+while True:
+    with Live(ui.layout, screen=True, auto_refresh=True):
+        tecla = readchar.readkey()
 
-layout["Main"].split_column(
-    Layout(name="Header"),
-    Layout(name="Body"),
-    Layout(name="Footer")
-)
-
-layout["Body"].ratio = 3
-
-# Nomear e deixar bonito layouts
-layout["Nav"].update(
-    Layout(Panel("",title="Menu", style="cyan",))
-)
-
-layout["Header"].update(
-    Layout(Panel("",title="Informações", style="red",))
-)
-
-layout["Body"].update(
-    Layout(Panel("", title="Miguel", style="white",))
-)
-
-layout["Footer"].update(
-    Layout(Panel("",title="Outros", style="purple",))
-)
-
-print(layout)
+        ui.layout["Body"].update(
+            Layout(Panel(f"{tecla}"))
+        )

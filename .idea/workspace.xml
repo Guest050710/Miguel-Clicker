@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="298ec294-b580-437d-b289-021b304a4f56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Python/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MiguelClicker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MiguelClicker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Guest050710&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Guest050710/Miguel-Clicker.git&quot;,
+    &quot;accountId&quot;: &quot;9221e043-5b08-4f20-9d0b-516353f223ed&quot;
+  }
+}</component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000001867404475" />
+      <entry key="S5" value="1.0039710625658005" />
+      <entry key="S10" value="1.145048015269112" />
+      <entry key="S30" value="3.5201318612645887" />
+      <entry key="S60" value="6.980559330247838" />
+      <entry key="M2" value="11.87373390650076" />
+      <entry key="M5" value="24.37701813656951" />
+      <entry key="M10" value="46.30870518709476" />
+      <entry key="M15" value="64.97853968610053" />
+      <entry key="M30" value="98.66606374823259" />
+      <entry key="H1" value="125.24747476118365" />
+      <entry key="H2" value="142.1204417312751" />
+      <entry key="H4" value="151.6505761260711" />
+      <entry key="D1" value="160.21507130288052" />
+      <entry key="W1" value="161.74349750870283" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="7.618852677178746E-145" />
+      <entry key="MS500" value="1.501197150726461E-29" />
+      <entry key="S2" value="6.97612465643427E-8" />
+      <entry key="S5" value="0.0020825748143912803" />
+      <entry key="S10" value="0.07687598767513834" />
+      <entry key="S30" value="0.9979477049903491" />
+      <entry key="S60" value="2.016649215352849" />
+      <entry key="M2" value="3.091732139314516" />
+      <entry key="M5" value="4.4687358141858775" />
+      <entry key="M10" value="5.636251195788528" />
+      <entry key="M15" value="6.423896126340826" />
+      <entry key="M30" value="7.721077663473217" />
+      <entry key="H1" value="8.693921475493307" />
+      <entry key="H2" value="9.298011053300147" />
+      <entry key="H4" value="9.63571090051992" />
+      <entry key="D1" value="9.937341206361152" />
+      <entry key="W1" value="9.990999810220375" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.02486051511734121" />
+      <entry key="MS500" value="0.47764146819121867" />
+      <entry key="S2" value="0.8313341321186367" />
+      <entry key="S5" value="0.9342807530287583" />
+      <entry key="S10" value="1.175531699153622" />
+      <entry key="S30" value="4.454618016240927" />
+      <entry key="S60" value="8.933954999253597" />
+      <entry key="M2" value="14.912692423929926" />
+      <entry key="M5" value="28.803562018299594" />
+      <entry key="M10" value="51.90364618684385" />
+      <entry key="M15" value="71.36342572295004" />
+      <entry key="M30" value="106.35754653417291" />
+      <entry key="H1" value="133.92272535441586" />
+      <entry key="H2" value="151.4079087058926" />
+      <entry key="H4" value="161.2806768275331" />
+      <entry key="D1" value="170.151427129714" />
+      <entry key="W1" value="171.7343552710148" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KnLU9iEX9iV2uDYRG56lYJk1bj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="MiguelClicker" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="298ec294-b580-437d-b289-021b304a4f56" name="Changes" comment="" />
+      <created>1792188398328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792188398328</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
