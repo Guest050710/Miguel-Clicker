@@ -1,3 +1,5 @@
+version = "Super Alpha Beta Limited"
+
 class Jogador():
     def __init__(self, nome):
         self.nome = nome

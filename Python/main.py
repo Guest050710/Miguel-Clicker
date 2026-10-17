@@ -21,6 +21,7 @@ import engine
 def loopDisplay():
     with (Live(ui.layout, screen=True, auto_refresh=True, refresh_per_second=30)):
         while True:
+            ui.displayHeader()
             ui.displayBody()
 
             time.sleep(0.01)

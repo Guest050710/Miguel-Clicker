@@ -29,11 +29,11 @@ layout["Nav"].update(
 )
 
 layout["Header"].update(
-    Layout(Panel("",title="Informações", style="red",))
+    Layout(Panel(""))
 )
 
 layout["Body"].update(
-    Layout(Panel("", title="Miguel", style="white",))
+    Layout(Panel(""))
 )
 
 layout["Footer"].update(
@@ -49,5 +49,13 @@ def displayBody():
     linhaBody.add_row(f"Dinheiro [green]($)[reset]: {engine.jogador.dinheiro} ", f"Dinheiro por segundo [green](DPS)[reset]: {engine.jogador.dps}")
 
     layout["Body"].update(
-        Layout(Panel(linhaBody))
-    )
+        Layout(Panel(linhaBody)))
+
+def displayHeader():
+    linhaHeader = Table.grid(expand=True)
+    linhaHeader.add_column(justify="left")
+    linhaHeader.add_column(justify="right")
+    linhaHeader.add_row("MIGUEL CLICKER ", f"[bold white]Versão:[reset] [italic]{engine.version}")
+
+    layout["Header"].update(
+        Layout(Panel(Align(linhaHeader, vertical="middle"))))
