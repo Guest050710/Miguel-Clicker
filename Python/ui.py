@@ -1,4 +1,9 @@
+import rich.align
 from rich.layout import *
+from rich.text import *
+from rich.table import *
+
+import engine
 
 # Criar e configurar layouts
 layout = Layout()
@@ -34,3 +39,15 @@ layout["Body"].update(
 layout["Footer"].update(
     Layout(Panel("",title="Outros", style="purple",))
 )
+
+# Criar textos para os painéis
+
+def displayBody():
+    linhaBody = Table.grid(expand=True)
+    linhaBody.add_column(justify="left")
+    linhaBody.add_column(justify="right")
+    linhaBody.add_row(f"Dinheiro [green]($)[reset]: {engine.jogador.dinheiro} ", f"Dinheiro por segundo [green](DPS)[reset]: {engine.jogador.dps}")
+
+    layout["Body"].update(
+        Layout(Panel(linhaBody))
+    )
